@@ -49,7 +49,7 @@
       "tag": "🚀 Fastest",
       "outbounds": ["🌐 Proxy"],
       "url": "https://www.gstatic.com/generate_204",
-      "interval": "45m0s"
+      "interval": "10m0s"
     },
     {
       "type": "direct",
