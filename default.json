@@ -48,7 +48,7 @@
       "type": "urltest",
       "tag": "🚀 Fastest",
       "outbounds": ["🌐 Proxy"],
-      "url": "http://connectivitycheck.gstatic.com/generate_204",
+      "url": "https://www.gstatic.com/generate_204",
       "interval": "10m0s"
     },
     {
