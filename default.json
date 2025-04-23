@@ -23,6 +23,19 @@
       {
         "rule_set": "geosite-ir",
         "server": "local"
+      },
+      {
+        "domain_suffix": [
+          "whatsapp.com",
+          "whatsapp.net",
+          "wa.me",
+          "facebook.com",
+          "fbcdn.net",
+          "facebook.net",
+          "fna.whatsapp.net"
+        ],
+        "server": "local",
+        "disable_cache": true
       }
     ],
     "final": "default",
@@ -48,7 +61,7 @@
       "type": "urltest",
       "tag": "🚀 Fastest",
       "outbounds": ["🌐 Proxy"],
-      "url": "https://www.gstatic.com/generate_204",
+      "url": "http://connectivitycheck.gstatic.com/generate_204",
       "interval": "10m0s"
     },
     {
@@ -105,6 +118,29 @@
       },
       {
         "ip_is_private": true,
+        "outbound": "direct"
+      },
+      {
+        "domain_suffix": [
+          "whatsapp.com",
+          "whatsapp.net",
+          "wa.me",
+          "facebook.com",
+          "fbcdn.net",
+          "facebook.net",
+          "fna.whatsapp.net"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "ip_cidr": [
+          "31.13.64.0/18",
+          "31.13.96.0/19",
+          "157.240.0.0/16",
+          "69.171.224.0/19",
+          "69.63.176.0/20",
+          "185.60.216.0/22"
+        ],
         "outbound": "direct"
       }
     ],
